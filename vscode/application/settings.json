@@ -1,0 +1,200 @@
+{
+  "sonarlint.rules": {
+    "typescript:S6747": {
+      "level": "off"
+    },
+    "typescript:S1128": {
+      "level": "on"
+    },
+    "typescript:S6759": {
+      "level": "off"
+    }
+  },
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    // Vim Shortcuts
+    {
+      "before": ["<Leader>", "l"],
+      "after": ["$"]
+    },
+    {
+      "before": ["<Leader>", "h"],
+      "after": ["^"]
+    },
+    {
+      "before": ["J"],
+      "after": ["5", "j"]
+    },
+    {
+      "before": ["K"],
+      "after": ["5", "k"]
+    },
+    {
+      "before": ["<C-j>"],
+      "commands": ["editor.action.moveLinesDownAction"]
+    },
+    {
+      "before": ["<C-k>"],
+      "commands": ["editor.action.moveLinesUpAction"]
+    },
+    // Emmet
+    {
+      "before": ["<Leader>", "e", "b", "i"],
+      "commands": ["editor.emmet.action.balanceIn"]
+    },
+    {
+      "before": ["<Leader>", "e", "b", "o"],
+      "commands": ["editor.emmet.action.balanceOut"]
+    },
+    {
+      "before": ["<Leader>", "e", "t"],
+      "commands": ["editor.emmet.action.matchTag"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "l"],
+      "after": ["$"]
+    },
+    {
+      "before": ["<leader>", "h"],
+      "commands": ["editor.action.showDefinitionPreviewHover"]
+    },
+    {
+      "before": ["j", "j"],
+      "after": "</Esc>"
+    },
+    {
+      "before": "j",
+      "after": "gj"
+    },
+    {
+      "before": "k",
+      "after": "gk"
+    },
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["lineBreakInsert"],
+      "silent": true
+    },
+    // VSCode
+    {
+      "before": ["g", "p", "d"],
+      "commands": ["editor.action.peekDefinition"]
+    },
+    {
+      "before": ["g", "h"],
+      "commands": ["editor.action.showDefinitionPreviewHover"]
+    },
+    {
+      "before": ["g", "i"],
+      "commands": ["editor.action.goToImplementation"]
+    },
+    {
+      "before": ["g", "p", "i"],
+      "commands": ["editor.action.peekImplementation"]
+    },
+    {
+      "before": ["g", "q"],
+      "commands": ["editor.action.quickFix"]
+    },
+    {
+      "before": ["g", "r"],
+      "commands": ["editor.action.referenceSearch.trigger"]
+    },
+    {
+      "before": ["g", "t"],
+      "commands": ["editor.action.goToTypeDefinition"]
+    },
+    {
+      "before": ["g", "p", "t"],
+      "commands": ["editor.action.peekTypeDefinition"]
+    },
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.view.explorer"]
+    },
+    {
+      "before": ["<leader>", "d"],
+      "commands": ["editor.action.duplicateSelection"]
+    },
+    {
+      "before": ["<leader>", "f"],
+      "commands": ["editor.action.formatSelection"]
+    },
+    {
+      "before": ["<C-j>"],
+      "commands": ["editor.action.moveLinesDownAction"]
+    },
+    {
+      "before": ["<C-k>"],
+      "commands": ["editor.action.moveLinesUpAction"]
+    },
+    {
+      "before": ["<Leader>", "g", "l"],
+      "commands": ["workbench.action.gotoLine"]
+    },
+    {
+      "before": ["<leader>", "w", "a"],
+      // close all editors
+      "commands": ["workbench.action.closeAllEditors"]
+    },
+    {
+      "before": ["<leader>", "w", "r"],
+      // close all editors to the right
+      "commands": ["workbench.action.closeEditorsToTheRight"]
+    },
+    {
+      "before": ["<leader>", "w", "l"],
+      // close all editors to the left
+      "commands": ["workbench.action.closeEditorsToTheLeft"]
+    },
+    {
+      "before": ["<leader>", "w", "o"],
+      // close others
+      "commands": ["workbench.action.closeOtherEditors"]
+    }
+  ],
+  "vim.insertModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<C-j>"],
+      "after": ["<down>"]
+    },
+    {
+      "before": ["<C-k>"],
+      "after": ["<up>"]
+    },
+    {
+      "before": ["<C-h>"],
+      "after": ["<left>"]
+    },
+    {
+      "before": ["<C-l>"],
+      "after": ["<right>"]
+    }
+  ],
+  "sonarlint.connectedMode.connections.sonarqube": [
+    {
+      "serverUrl": "https://sonar.avepoint.net",
+      "connectionId": "https-sonar-avepoint-net",
+      "disableNotifications": true
+    }
+  ],
+  "window.newWindowProfile": "Advanced Profile",
+  "remote.SSH.remotePlatform": {
+    "172.29.20.50": "windows"
+  }
+}
