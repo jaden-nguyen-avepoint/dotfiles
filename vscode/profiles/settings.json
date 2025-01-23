@@ -1,0 +1,174 @@
+{
+  "files.autoSave": "onFocusChange",
+  "editor.fontFamily": "JetBrains Mono,'GeistMono Nerd Font', Fira Code Retina,  Consolas, 'Courier New', monospace",
+  // "editor.fontLigatures": "'calt', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "400",
+  "editor.lineHeight": 2,
+  "editor.fontSize": 13,
+  "editor.letterSpacing": 0.7,
+  "editor.smoothScrolling": true,
+  "editor.semanticHighlighting.enabled": false,
+  "editor.formatOnPaste": true,
+  "editor.wordWrap": "bounded",
+  "editor.wordWrapColumn": 120,
+  "editor.cursorBlinking": "solid",
+  "editor.acceptSuggestionOnEnter": "smart",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "terminal.integrated.fontFamily": "GeistMono Nerd Font",
+  "terminal.integrated.fontWeight": "300",
+  "vim.foldfix": true,
+  "vim.easymotion": true,
+  "vim.useCtrlKeys": false,
+  "vim.useSystemClipboard": true,
+  "vim.smartRelativeLine": true,
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-d>": true,
+    "<C-k>": true,
+    "<C-j>": true,
+    "<C-f>": false,
+    "<C-s>": false,
+    "<C-z>": false,
+    "<C-e>": false,
+    "<C-w>": false,
+    "<C-/>": false
+  },
+  "vim.enableNeovim": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "git.enableCommitSigning": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.confirmSync": false,
+  "files.associations": {
+    "*.service.ts": "nest-service"
+  },
+  "material-icon-theme.activeIconPack": "nest",
+  "terminal.integrated.env.windows": {},
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "chat.editor.wordWrap": "on",
+  "editor.minimap.renderCharacters": false,
+  "editor.stickyScroll.enabled": true,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "sonarlint.focusOnNewCode": true,
+  "gitlens.gitCommands.skipConfirmations": ["fetch:command", "switch:command"],
+  "sonarlint.connectedMode.connections.sonarqube": [
+    {
+      "serverUrl": "https://sonar.avepoint.net",
+      "connectionId": "https-sonar-avepoint-net",
+      "disableNotifications": true
+    }
+  ],
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "GitHub Dark",
+  "accessibility.signals.terminalBell": {
+    "sound": "on"
+  },
+  "terminal.integrated.enableVisualBell": true,
+  "gitlens.ai.experimental.provider": "openai",
+  "gitlens.ai.experimental.openai.model": "gpt-4-turbo-preview",
+  "github.copilot.editor.enableCodeActions": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "csharp.experimental.debug.hotReload": true,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "debug.javascript.autoAttachFilter": "disabled",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false
+  },
+  "apc.electron": {
+    "transparent": true,
+    "opacity": 0.98,
+    "vibrancy": "fullscreen-ui",
+    "visualEffectState": "active"
+  },
+  "apc.statusBar": {
+    "position": "editor-bottom",
+    "height": 22,
+    "fontSize": 11
+  },
+  "apc.header": {
+    "height": 30
+  },
+  "apc.listRow": {
+    "height": 20
+  },
+  "apc.font.family": "Fira Code Retina,'Cascadia Code', Consolas, 'Courier New', monospace",
+  "apc.monospace.font.family": "Fira Code Retina,'Cascadia Code',Consolas, 'Courier New', monospace",
+  "apc.activityBar": {
+    "hideSettings": false,
+    "size": 30
+  },
+  "apc.stylesheet": {
+    ".sidebar > .composite": "height: 10px !important",
+    ".title-label": "display: none !important",
+    ".inline-tabs-placeholder": "display: none !important",
+    ".split-view-view .visible": "background-color: #23262e!important",
+    ".quick-input-widget": {
+      "position": "absolute !important",
+      "top": "200px !important",
+      "left": "50%",
+      "border-radius": "10px"
+    },
+    ".titlebar-left": {
+      "max-width": "70px !important"
+    },
+    ".titlebar-center": {
+      "margin": "0 !important"
+    },
+    ".action-item.menu-entry": {
+      "display": "none !important"
+    },
+    ".monaco-inputbox": {
+      "border-radius": "6px!important"
+    },
+    ".monaco-inputbox>.ibwrapper>.input, .monaco-inputbox>.ibwrapper>.mirror": {
+      "padding": "8px 10px !important"
+    },
+    ".quick-input-list > .monaco-list > .monaco-scrollable-element": {
+      "padding": "2px !important"
+    }
+  },
+  "cSpell.userWords": [
+    "avepoint",
+    "collapsable",
+    "endregion",
+    "SHAREWORK",
+    "stylesheet",
+    "testid",
+    "titlebar"
+  ],
+  "github.copilot.preferredAccount": "jaden-nguyen-avepoint",
+  "playwright.reuseBrowser": false,
+  "playwright.showTrace": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "github.copilot.chat.terminalChatLocation": "quickChat"
+}
