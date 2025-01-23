@@ -1,0 +1,104 @@
+[
+  // Explorer
+  {
+    "key": "space e",
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "key": "a",
+    "command": "explorer.newFile",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "f",
+    "command": "explorer.newFolder",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "r",
+    "command": "renameFile",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "x",
+    "command": "filesExplorer.cut",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "y",
+    "command": "filesExplorer.copy",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
+  },
+  {
+    "key": "p",
+    "command": "filesExplorer.paste",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "tab",
+    "command": "editor.action.accessibleViewAcceptInlineCompletion",
+    "when": "accessibleViewIsShown && accessibleViewCurrentProviderId == 'inlineCompletions'"
+  },
+  {
+    "key": "ctrl+/",
+    "command": "-editor.action.accessibleViewAcceptInlineCompletion",
+    "when": "accessibleViewIsShown && accessibleViewCurrentProviderId == 'inlineCompletions'"
+  },
+  // Git
+  {
+    "key": "g",
+    "command": "workbench.scm.focus",
+    "when": "!editorFocus && !inputFocus"
+  },
+  {
+    "key": "o",
+    "command": "workbench.action.focusNextPart",
+    "when": "timelineFollowActiveEditor && !inputFocus"
+  },
+  {
+    "key": "c",
+    "command": "git.timeline.copyCommitId",
+    "when": "timelineFollowActiveEditor && !inputFocus"
+  },
+  // Terminal
+  {
+    "key": "ctrl+m",
+    "command": "workbench.action.toggleMaximizedPanel",
+    "when": "terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "ctrl+shift+j",
+    "command": "workbench.action.terminal.scrollDown",
+    "when": "terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "ctrl+shift+k",
+    "command": "workbench.action.terminal.scrollUp",
+    "when": "terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "ctrl+shift+h",
+    "command": "workbench.action.terminal.scrollDownPage",
+    "when": "terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "ctrl+shift+l",
+    "command": "workbench.action.terminal.scrollUpPage",
+    "when": "terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "ctrl+shift+n",
+    "command": "workbench.action.terminal.focusPrevious",
+    "when": "terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "ctrl+`",
+    "command": "workbench.action.terminal.toggleTerminal"
+  }
+]
